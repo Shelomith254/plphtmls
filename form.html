@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced HTML5 Content & Forms</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Enhanced HTML5 Page with Forms</h1>
+    <p>Demonstrating lists, tables, media, and HTML5 form validation.</p>
+  </header>
+
+  <!-- Lists Section -->
+  <section>
+    <h2>Favorite Programming Languages</h2>
+    <ul>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>SQL</li>
+    </ul>
+
+    <h3>Steps to Build a Website</h3>
+    <ol>
+      <li>Plan your layout</li>
+      <li>Write HTML structure</li>
+      <li>Add styling with CSS</li>
+      <li>Enhance with JavaScript</li>
+    </ol>
+  </section>
+
+  <!-- Table Section -->
+  <section>
+    <h2>Student Grades</h2>
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Course</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice</td>
+          <td>Web Development</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>Databases</td>
+          <td>B+</td>
+        </tr>
+        <tr>
+          <td>Charlie</td>
+          <td>Networks</td>
+          <td>A-</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Media Section -->
+  <section>
+    <h2>Embedded Media</h2>
+    <figure>
+      <img src="https://via.placeholder.com/300" alt="Sample Image">
+      <figcaption>A sample placeholder image.</figcaption>
+    </figure>
+
+    <h3>Sample Video</h3>
+    <video controls width="400">
+      <source src="sample-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <h3>Sample Audio</h3>
+    <audio controls>
+      <source src="sample-audio.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="course">Choose Course:</label>
+        <select id="course" name="course" required>
+          <option value="">--Select--</option>
+          <option value="web">Web Development</option>
+          <option value="db">Database Systems</option>
+          <option value="ml">Machine Learning</option>
+        </select><br><br>
+
+        <label>
+          <input type="checkbox" name="terms" required>
+          I agree to the terms and conditions
+        </label>
+      </fieldset>
+
+      <br>
+      <input type="submit" value="Register">
+      <input type="reset" value="Clear Form">
+
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Enhanced HTML5 Example</p>
+  </footer>
+
+</body>
+</html>
