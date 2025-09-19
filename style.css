@@ -1,0 +1,61 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Card-like sections to visualize box model */
+.card {
+  background: white;
+  margin: 20px;         /* space outside border */
+  padding: 15px;        /* space inside border */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.highlight {
+  border-color: #4CAF50;
+  background-color: #e9f7ef;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  border: 2px solid #4CAF50;
+  background-color: white;
+  color: #4CAF50;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+}
