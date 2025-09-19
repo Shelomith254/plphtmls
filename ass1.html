@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about the importance of accessible and SEO-friendly web design with HTML5 semantic structure.">
+  <title>Accessible & SEO-Friendly HTML5 Page</title>
+</head>
+<body>
+  <!-- Header with site identity -->
+  <header>
+    <h1>Accessible Web Design with HTML5</h1>
+    <p>Building web pages that are easy to use and discover.</p>
+    
+    <!-- Primary navigation -->
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" title="Learn about accessibility and SEO">About</a></li>
+        <li><a href="#articles" title="Read featured articles">Articles</a></li>
+        <li><a href="#contact" title="Get in touch">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main id="main-content">
+    <!-- Section 1: About -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>
+        This page demonstrates the use of <strong>HTML5 semantic tags</strong> 
+        along with <strong>accessibility</strong> and <strong>SEO</strong> best practices. 
+        The goal is to create a structure that works well for both people and search engines.
+      </p>
+    </section>
+
+    <!-- Section 2: Articles -->
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Featured Articles</h2>
+      <article aria-labelledby="article1-title">
+        <h3 id="article1-title">Why Accessibility Matters</h3>
+        <p>
+          Accessibility ensures that websites can be used by everyone, 
+          including people with disabilities. It’s a crucial part of inclusive design.
+        </p>
+      </article>
+
+      <article aria-labelledby="article2-title">
+        <h3 id="article2-title">SEO-Friendly HTML5 Structure</h3>
+        <p>
+          Search engines rely on semantic structure to understand content. 
+          Proper use of headings, metadata, and alt text improves discoverability.
+        </p>
+      </article>
+    </section>
+
+    <!-- Section 3: Contact -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>
+        Got questions? Reach out via 
+        <a href="mailto:info@example.com" title="Email us">info@example.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Accessible Web Demo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
